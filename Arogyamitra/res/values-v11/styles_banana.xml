@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="Buttonbanana" parent="android:Widget.Holo.Light.Button">
+	  <item name="android:background">@drawable/banana_btn_default_holo_light</item>
+  </style>
+
+  <style name="ImageButtonbanana" parent="android:Widget.Holo.Light.ImageButton">
+	  <item name="android:background">@drawable/banana_btn_default_holo_light</item>
+  </style>
+
+  <style name="Spinnerbanana" parent="android:Widget.Holo.Light.Spinner">
+      <item name="android:background">@drawable/banana_spinner_background_holo_light</item>
+      <item name="android:dropDownSelector">@drawable/banana_list_selector_holo_light</item>
+  </style>
+
+  <style name="ProgressBarbanana" parent="android:Widget.Holo.Light.ProgressBar.Horizontal">
+      <item name="android:progressDrawable">@drawable/banana_progress_horizontal_holo_light</item>
+      <item name="android:indeterminateDrawable">@drawable/banana_progress_indeterminate_horizontal_holo_light</item>
+  </style>
+
+  <style name="Togglebanana" parent="android:Widget.Holo.Light.Button.Toggle">
+      <item name="android:background">@drawable/banana_btn_toggle_holo_light</item>
+  </style>
+
+</resources>

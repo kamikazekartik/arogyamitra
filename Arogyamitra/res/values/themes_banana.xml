@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="banana" parent="@style/_banana"/>
+
+  <style name="_banana" parent="AppTheme">
+
+    <item name="android:editTextStyle">@style/EditTextbanana</item>
+
+    <item name="android:textColorHighlight">#99068587</item>
+
+    <item name="android:checkboxStyle">@style/CheckBoxbanana</item>
+
+    <item name="android:radioButtonStyle">@style/RadioButtonbanana</item>
+
+    <item name="android:buttonStyle">@style/Buttonbanana</item>
+
+    <item name="android:imageButtonStyle">@style/ImageButtonbanana</item>
+
+    <item name="android:spinnerStyle">@style/Spinnerbanana</item>
+
+    <item name="android:spinnerDropDownItemStyle">@style/SpinnerDropDownItembanana</item>
+
+    <item name="android:progressBarStyleHorizontal">@style/ProgressBarbanana</item>
+
+    <item name="android:buttonStyleToggle">@style/Togglebanana</item>
+
+    <item name="android:listViewStyle">@style/ListViewbanana</item>
+
+    <item name="android:listViewWhiteStyle">@style/ListViewbanana.White</item>
+
+    <item name="android:spinnerItemStyle">@style/SpinnerItembanana</item>
+
+  </style>
+
+</resources>

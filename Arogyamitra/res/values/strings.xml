@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Healthizen</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_send_mail_screen">SendMailScreen</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="yesno">
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+    <string-array name="vas_benefits">
+        <item>a) Health Problems solved</item>
+        <item>b) Productivity improved</item>
+        <item>c) Health Expendityre avoided</item>
+        <item>d) Family members helped</item>
+    </string-array>
+    <string-array name="caste_options">
+        <item>a) General Category</item>
+        <item>b) Backward Caste / Community</item>
+        <item>c) Schedule Cast</item>
+        <item>d) Schedule Tribe</item>
+        <item>e) Others</item>
+    </string-array>
+    <string-array name="good_not_good">
+        <item>Good</item>
+        <item>Not Good</item>
+    </string-array>
+    <string-array name="sub_4">
+        <item>Unclean public markets selling food</item>
+        <item>Fertilizers and pesticides leaking into water sources</item>
+    </string-array>
+
+    <string name="aboutTitle">About</string>
+    <string name="aboutString">
+<![CDATA[Healthizen is a mobile application that connects the concerned active 
+            citizen of Bangalore City directly to the Health Department by providing an 
+            easy channel to bring important issues regarding community health and sanitation 
+            to the department.<br /><br />
+            This simple tool that is Healthizen allows the people to take authority and 
+            help the government in making the city cleaner, healthier and 
+            safer for the people who call it home. The population works as one: 
+            citizens are the eyes, and the concerned authorities the hands and legs 
+            that perform the tasks. To be successful, one needs the other.<br /><br />
+            The app interfaces with the camera present in smart phones and tablets, 
+            and allows them to send pictures of the issue that they want to flag to the 
+            concerned authorities.We prefer to call the issues that you point out as 
+            ‘flags’ rather than complaints. This isn’t a complaint anymore.<br /><br />
+             You are an active member of society doing your part in making the city a 
+             cleaner place.<br /><br />
+			Though we would like to, we cannot guarantee that the flags are addressed. 
+			What we can guarantee, is that the flags are received and read by the concerned 
+			authorities and the Healthizen team has mechanisms in place for this. 
+			Multiple flags that haven’t been addressed will show us that a pressing matter 
+			has not been taken care of. This will allow those in power to put 
+			pressure on the concerned authorities to take the necessary steps.<br /><br />
+        ]]>
+    </string>
+    <string name="flagBtnLabel">Flag</string>
+    <string name="aboutBtnLabel">About</string>
+    <string name="faqsBtnLabel">FAQs</string>
+    <string name="reviewBtnLabel">Review</string>
+    <string name="faqTitle">FAQs</string>
+    <string name="faqString">
+<![CDATA[Read the “About Healthizen” tab to learn what the app does, and how to use it. <br /><br />
+
+<font color="red"> <b> 1. How is my flag going to help? <br /></b> </font>
+By sending a flag using Healthizen, you make the authorities aware of a problem 
+that they could have missed out on. When they are made aware of the problem, they 
+will be able to correct it. And it is with your help that they were able to do so. 
+A simple flag on your part could do something big like help stop a malaria outbreak,
+ or even just make your neighborhood cleaner. <br />
+<font color="red"> <b>2. Who will my flag reach? <br /> </b> </font>
+Our internal routing mechanism will ensure that your flag will reached the concerned 
+authority in the specified area, so that appropriate action can be taken. <br />
+<font color="red"> <b>3. Will the concerned authority who receives my flag be answerable? <br /></b></font>
+We cannot force the authorities to act. But like us, they too want to see a cleaner and safer Bangalore.
+ We can guarantee that the issue you point out reaches the eyes of people who can correct it. <br />
+<font color="red"> <b> 4. Where can I check the status of my flag? <br /> </b></font>
+We will be setting up a website which lists all flags and their statuses. You can check the status of your flag on this site.<br />
+<font color="red"><b>5. If I’m unsure of the category of my flag, what do I do? <br /></b></font>
+No need to worry! Mark the category of the flag as others, and add a detailed comment, and we 
+shall appropriately route it to the concerned department.<br />
+<font color="red"><b>6. Why aren’t anonymous flags allowed? <br /></b></font>
+If we receive a complaint, we must be able to see who sent it, so that we can contact the person for further details of required. <br />
+<font color="red"><b>7. Will Healthizen be releasing in non-android versions? <br /></b></font>
+Yes, Healthizen will release on iOS and Windows Phone as well.<br />
+<font color="red"><b>8. What can I write in comments? <br /></b></font>
+The comments section is for any subjective information that you may want to provide. 
+It could be extra information that we can’t see from the picture, such as that there are 
+stray dogs all around the garbage pile, or it could even be a landmark so that we can find 
+the site of your flag easily. <br />
+<font color="red"><b>Why is the app called ‘Healthizen’? <br /></b></font>
+Healthizen is a portmanteau of the words ‘Health’ and ‘Citizen’ – a nod to public 
+engagement in governance. A concerned citizen takes the matter of public health into his 
+own hands and helps authorities track down issues in our city. <br />
+            ]]>
+    </string>
+    <string name="bgColorPrimary">#47C1D1</string>
+    <string name="title_activity_form_page_1">Form_page_1</string>
+    <string name="title_activity_form_page1">FormPage1</string>
+    <string name="title_activity_form_page2">FormPage2</string>
+    <string name="title_activity_form_page3">FormPage3</string>
+    <string name="title_activity_form_page4">FormPage4</string>
+    <string name="title_activity_form_page5">FormPage5</string>
+    <string name="title_activity_form_page6">FormPage6</string>
+
+</resources>

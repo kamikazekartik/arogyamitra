@@ -1,0 +1,125 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lighter"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+
+    <Button
+        android:id="@+id/Button1"
+        android:layout_width="200px"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Send" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/checkBox1"
+        android:layout_alignBottom="@+id/checkBox1"
+        android:layout_alignParentRight="true"
+        android:text="No" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="200px"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="32dp"
+        android:layout_toLeftOf="@+id/button1"
+        android:text="Are you benefited by VAS scheme?" />
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_alignRight="@+id/Button1"
+        android:text="Yes" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="200px"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="27dp"
+        android:layout_toLeftOf="@+id/Button1"
+        android:text="In what way VAS scheme benefited you?" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView2"
+        android:layout_toRightOf="@+id/textView2"
+        android:text="A" />
+
+    <CheckBox
+        android:id="@+id/checkBox5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/checkBox4"
+        android:layout_alignBottom="@+id/checkBox4"
+        android:layout_toRightOf="@+id/checkBox4"
+        android:text="C" />
+
+    <CheckBox
+        android:id="@+id/checkBox6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/checkBox5"
+        android:layout_alignBottom="@+id/checkBox5"
+        android:layout_toRightOf="@+id/checkBox5"
+        android:text="D" />
+
+    <CheckBox
+        android:id="@+id/checkBox7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/checkBox6"
+        android:layout_alignBottom="@+id/checkBox6"
+        android:layout_toRightOf="@+id/checkBox6"
+        android:text="E" />
+
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/checkBox3"
+        android:layout_alignBottom="@+id/checkBox3"
+        android:layout_centerHorizontal="true"
+        android:text="B" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="200px"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="19dp"
+        android:text="If you are benefited by VAS scheme, are you going to suggest to those who are suffering from Tertialry diseases to make use of the scheme?" />
+
+    <CheckBox
+        android:id="@+id/checkBox9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/checkBox8"
+        android:layout_alignBottom="@+id/checkBox8"
+        android:layout_alignParentRight="true"
+        android:text="No" />
+
+    <CheckBox
+        android:id="@+id/checkBox8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/checkBox5"
+        android:layout_alignTop="@+id/textView3"
+        android:layout_marginTop="44dp"
+        android:text="Yes" />
+
+</RelativeLayout>

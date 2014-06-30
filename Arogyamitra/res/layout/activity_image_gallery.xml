@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/faqsScroller"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout
+            android:id="@+id/faqsLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/lighter"
+            android:padding="10dp"
+            android:scrollbars="vertical" >
+
+            <TextView
+                android:id="@+id/TextView02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="50dp"
+                android:text="@string/faqTitle"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/TextView01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/TextView02"
+                android:layout_below="@+id/TextView02"
+                android:paddingTop="10dp"
+                android:scrollbars="vertical" />
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <ScrollView
+        android:id="@+id/aboutScroller"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout
+            android:id="@+id/aboutLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/lighter"
+            android:padding="10dp" >
+
+            <TextView
+                android:id="@+id/aboutTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="50dp"
+                android:text="@string/aboutTitle"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/aboutTitle"
+                android:layout_below="@+id/aboutTitle"
+                android:paddingTop="10dp"
+                android:scrollbars="vertical"
+                android:text="@string/aboutString" />
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/imageGalleryLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/lighter" >
+
+        <ImageView
+            android:id="@+id/picSlot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/imguploadtbar"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:scaleType="center"
+            android:src="@drawable/ic_launcher" />
+
+        <FrameLayout
+            android:id="@+id/imguploadtbar"
+            android:layout_width="fill_parent"
+            android:layout_height="50dip"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:background="#000000" >
+
+            <Button
+                android:id="@+id/clickimagebtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Click Image" />
+
+            <LinearLayout
+                android:id="@+id/nextStageButtons"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <Button
+                    android:id="@+id/imguploadbtn"
+                    android:layout_width="146dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dip"
+                    android:layout_weight="4.34"
+                    android:text="Upload" />
+
+                <Button
+                    android:id="@+id/imgcancelbtn"
+                    android:layout_width="154dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dip"
+                    android:layout_weight="2.48"
+                    android:text="Cancel" />
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/btnsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/flagBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/flagBtnLabel" />
+
+        <Button
+            android:id="@+id/aboutBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/aboutBtnLabel" />
+
+        <Button
+            android:id="@+id/faqsBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/faqsBtnLabel" />
+
+        <Button
+            android:id="@+id/reviewBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/reviewBtnLabel" />
+
+    </LinearLayout>
+
+</FrameLayout>

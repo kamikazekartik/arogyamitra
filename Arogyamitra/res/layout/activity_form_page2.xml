@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tableLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:shrinkColumns="*"
+    android:stretchColumns="*" >
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <TextView
+            android:id="@+id/TextView04"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="Are you benefited by VAS scheme?"
+            android:textStyle="bold" >
+        </TextView>
+
+        <CheckBox
+            android:id="@+id/checkBox1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:text="Yes" />
+
+        <CheckBox
+            android:id="@+id/checkBox2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:text="No" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_weight="3"
+            android:text="In what way VAS scheme benefited you?\n
+	a) Health Problems solved
+	b) Productivity improved
+	c) Health Expendityre avoided
+	d) Family members helped"
+            android:textStyle="bold" >
+        </TextView>
+
+        <CheckBox
+            android:id="@+id/checkBox3"
+            android:layout_width="5dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:text="A" />
+
+        <CheckBox
+            android:id="@+id/checkBox4"
+            android:layout_width="5dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:text="B" />
+
+        <CheckBox
+            android:id="@+id/checkBox5"
+            android:layout_width="5dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:text="C" />
+
+        <CheckBox
+            android:id="@+id/checkBox6"
+            android:layout_width="5dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:text="D" />
+
+        <CheckBox
+            android:id="@+id/checkBox7"
+            android:layout_width="5dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:text="E" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+         >
+
+        <TextView
+            android:id="@+id/textView3"
+            android:text="If you are benefited by VAS scheme, are you going to suggest to those who are suffering from Tertiary diseases to make use of the scheme?"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:textStyle="bold" >
+        </TextView>
+
+        <CheckBox
+            android:id="@+id/checkBox8"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:text="Yes" />
+
+        <CheckBox
+            android:id="@+id/checkBox9"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:text="No" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/textView8"
+            android:text="Conditions"
+            android:textStyle="bold" >
+        </TextView>
+    </TableRow>
+
+</TableLayout>

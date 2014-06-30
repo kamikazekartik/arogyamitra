@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="banana_color">#068587</color>
+    <color name="dark">#112F41</color>
+    <color name="semidark">#068587</color>
+    <color name="lighter">#4fb99f</color>
+    <color name="contrast">#f2b134</color>
+    <color name="contrastdark">#ed553b</color>
+</resources>

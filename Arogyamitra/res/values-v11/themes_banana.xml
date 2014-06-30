@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <style name="banana" parent="@style/_banana"/>
+
+  <style name="_banana" parent="AppTheme">
+
+    <item name="android:editTextBackground">@drawable/banana_edit_text_holo_light</item>
+
+    <item name="android:textColorHighlight">#99068587</item>
+    <item name="android:textSelectHandleLeft">@drawable/banana_text_select_handle_left</item>
+    <item name="android:textSelectHandleRight">@drawable/banana_text_select_handle_right</item>
+    <item name="android:textSelectHandle">@drawable/banana_text_select_handle_middle</item>
+
+    <item name="android:listChoiceIndicatorMultiple">@drawable/banana_btn_check_holo_light</item>
+
+    <item name="android:listChoiceIndicatorSingle">@drawable/banana_btn_radio_holo_light</item>
+
+    <item name="android:buttonStyle">@style/Buttonbanana</item>
+
+    <item name="android:imageButtonStyle">@style/ImageButtonbanana</item>
+
+    <item name="android:dropDownSpinnerStyle">@style/Spinnerbanana</item>
+
+    <item name="android:progressBarStyleHorizontal">@style/ProgressBarbanana</item>
+
+    <item name="android:buttonStyleToggle">@style/Togglebanana</item>
+
+    <item name="android:listChoiceBackgroundIndicator">@drawable/banana_list_selector_holo_light</item>
+
+    <item name="android:activatedBackgroundIndicator">@drawable/banana_activated_background_holo_light</item>
+
+  </style>
+
+</resources>
